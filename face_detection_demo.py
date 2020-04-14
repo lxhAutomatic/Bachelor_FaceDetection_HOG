@@ -3,7 +3,6 @@ import lib.FaceDetector as fd
 import numpy as np
 
 faceDetector = fd.FaceDetector("trained_models/nnet/model.h5",w=200,h=200)
-
 cap = cv2.VideoCapture(0) #创建一个 VideoCapture 对象 
 
 count = 0
